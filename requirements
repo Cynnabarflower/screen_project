@@ -1,0 +1,13 @@
+pip install segmentation-models-pytorch
+pip install "pytorch-lightning==1.9.5"
+pip install omegaconf -U
+pip install hydra-core --upgrade
+
+!pip install onnx
+!pip install onnx-tf
+
+pytorch==1.7.1
+tensorflow==2.8.0
+onnx==1.14.0
+onnx-tf==1.10.0
+keras==2.13.1rc0
